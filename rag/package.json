@@ -1,0 +1,15 @@
+{
+  "name": "camelliakeepers-rag-tools",
+  "private": true,
+  "type": "module",
+  "description": "Local tools for the Camellia Keepers question service. Not deployed.",
+  "scripts": {
+    "ingest": "node ingest.mjs",
+    "dev": "node dev-server.mjs",
+    "eval": "node eval/run.mjs",
+    "qr": "node make-qr.mjs"
+  },
+  "devDependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
